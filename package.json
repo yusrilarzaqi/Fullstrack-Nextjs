@@ -1,20 +1,28 @@
 {
-  "name": "fullstack-next",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.2.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.19.0",
-    "eslint-config-next": "12.2.2"
-  }
+	"name": "fullstack-next",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"knex": "knex"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"dotenv": "^16.0.1",
+		"js-cookie": "^3.0.1",
+		"jsonwebtoken": "^8.5.1",
+		"knex": "^2.1.0",
+		"mysql": "^2.18.1",
+		"next": "12.2.2",
+		"next-cookies": "^2.0.3",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"eslint": "8.19.0",
+		"eslint-config-next": "12.2.2"
+	}
 }
